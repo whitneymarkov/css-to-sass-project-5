@@ -1,0 +1,35 @@
+// ======================================
+//  Layout intro
+// ======================================
+
+.intro {
+    @include flexy($dir: column);
+    @include center(90%);
+    padding: $gutter;
+
+    img {
+        align-self: center;
+        max-width: 367px;
+    }
+
+    @include mq('sm') {
+        @include flexy($dir: row, $just: space-around);
+
+        p {
+            order: -1;
+            flex: 1;
+            padding: $gutter;
+            align-self: center;
+        }
+        img {
+            flex: 1;
+            padding: $gutter;
+        }
+    }
+
+    @include mq('med') {
+        @include text($size: 1.25em);
+    }
+
+
+}

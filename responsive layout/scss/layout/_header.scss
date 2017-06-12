@@ -1,0 +1,27 @@
+// ======================================
+//  Layout header
+// ======================================
+
+
+header {
+    @include flexy($dir: column);
+    @include center(90%);
+    @extend %margin;
+
+    @include mq ('med') {
+        @include flexy($dir: row, $just: space-between);
+        align-items: center;
+
+        h1 a {
+            margin: auto;
+        }
+    }
+
+
+    .main-nav {
+        @include mq('sm') {
+            @include flexy($dir: row, $just: space-around);
+        }
+    }
+
+}

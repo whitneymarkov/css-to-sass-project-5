@@ -1,0 +1,18 @@
+// ======================================
+//  Layout skills
+// ======================================
+
+.skills {
+    @include flexy($dir: column);
+    @include center(90%);
+
+    @include mq('sm') {
+        @include flexy($dir: row, $just: space-between);
+    }
+
+    ul {
+        align-self: center;
+    }
+
+
+}

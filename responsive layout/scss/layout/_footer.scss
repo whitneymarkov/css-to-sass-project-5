@@ -1,0 +1,30 @@
+// ======================================
+//  Layout footer
+// ======================================
+
+.main-footer {
+    margin-top: auto;
+    min-height: 1vh;
+    @include flexy($just: space-between);
+    @include center(90%);
+
+
+    .bottom-nav {
+        display: none;
+    }
+
+    @include mq('sm') {
+        .bottom-nav {
+            @include flexy($dir: row, $just: space-between);
+            align-self: center;
+        }
+
+        h3 a {
+            display: none;
+        }
+
+    }
+
+
+
+}

@@ -1,0 +1,25 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Colors
+$white: #fff;
+
+$color-text: #3a3a3a;
+$color-accent: #e67670;
+
+$color-bg: #fafafa;
+
+// Fonts
+$font-stack-primary: 'Source Sans Pro', sans-serif;
+$font-stack-secondary: 'Patua One', cursive;
+
+// Layout
+$max-width: 1000px;
+$gutter: 10px;
+
+// Break points
+$breakpoints: (
+'sm': 768px,
+'med': 1024px,
+);

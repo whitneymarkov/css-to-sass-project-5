@@ -1,0 +1,45 @@
+// ======================================
+//  Base styles
+// ======================================
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    @include flexy($dir: column);
+    min-height: 100vh;
+    @include text;
+	text-align: center;
+    background-color: $color-bg;
+}
+
+header,
+footer {
+    @include text($font: $font-stack-secondary);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+  color: $color-text;
+  text-decoration: none;
+  transition: 0.3s;
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+.section {
+    @extend %background;
+    @extend %margin;
+    @include center(100%);
+}

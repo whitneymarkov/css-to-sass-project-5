@@ -1,0 +1,22 @@
+// ======================================
+//  Layout containers
+// ======================================
+
+.portfolio {
+    @include flexy($wrap: wrap);
+    @include center(90%);
+
+    .container {
+        @include flexy($dir: column);
+        @extend %margin;
+        padding: $gutter;
+
+        @include mq('sm') {
+            flex: 1 per-line(2);
+        }
+
+        @include mq('med') {
+            flex: 1 per-line(3);
+        }
+    }
+}

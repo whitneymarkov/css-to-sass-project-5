@@ -1,0 +1,18 @@
+// ======================================
+//  Layout contact
+// ======================================
+
+.contact {
+    @include flexy($dir: column);
+    @include center(90%);
+    align-items: center;
+    @extend %margin;
+
+    table {
+        text-align: left;
+        a {
+            margin-left: $gutter;
+        }
+    }
+
+}

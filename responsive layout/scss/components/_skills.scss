@@ -1,0 +1,16 @@
+// ======================================
+//  Skills styles
+// ======================================
+
+.skills ul {
+
+    li {
+        border-radius: 6px;
+        display: inline-block;
+        padding: 5px 10px;
+        background: $color-accent;
+        color: $white;
+        margin: 6px;
+    }
+
+}
