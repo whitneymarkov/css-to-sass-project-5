@@ -3,6 +3,6 @@ Refactoring the stylesheet from project 2 using SCSS partials, variables, extend
 
 Convert a CSS stylesheet to Sass. Refactor the stylesheet from the Build a Responsive Layout project (project 2) using SCSS partials, variables, extends, and mixins.
 
-Project supplied by Team Treehouse Front-End Wed Development TechDegree
+Project supplied by Team Treehouse Front-End Web Development TechDegree
 
 
