@@ -4,7 +4,7 @@
 
 .portfolio {
     @include flexy($wrap: wrap);
-    @include center(90%);
+    @include center(98%);
 
     .container {
         @include flexy($dir: column);

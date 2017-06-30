@@ -1,0 +1,225 @@
+.section, header, .portfolio .container, .contact {
+  margin-bottom: 20px; }
+
+.section, .main-nav li {
+  background-color: #fff; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #3a3a3a;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background-color: #fafafa; }
+
+header,
+footer {
+  color: #3a3a3a;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Patua One", cursive; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+h1 {
+  color: #3a3a3a;
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-family: "Patua One", cursive; }
+
+a,
+li a {
+  color: #3a3a3a;
+  text-decoration: none;
+  transition: 0.3s; }
+  a:hover,
+  li a:hover {
+    color: #e67670; }
+
+.section {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-nav li {
+  display: block;
+  padding: 10px;
+  margin: 3px 0; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      display: inline-block;
+      background-color: inherit; } }
+.main-nav a {
+  color: #3a3a3a;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-family: "Patua One", cursive;
+  text-transform: capitalize;
+  padding: .75em; }
+
+.bottom-nav {
+  display: block;
+  padding: 10px;
+  background-color: inherit; }
+  .bottom-nav a {
+    color: #3a3a3a;
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-family: "Patua One", cursive;
+    text-transform: capitalize;
+    padding: .75em; }
+
+h2 {
+  color: #3a3a3a;
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-family: "Patua One", cursive;
+  text-transform: uppercase; }
+
+h3 {
+  font-weight: normal;
+  font-size: 1.4em; }
+
+.skills ul li {
+  border-radius: 6px;
+  display: inline-block;
+  padding: 5px 10px;
+  background: #e67670;
+  color: #fff;
+  margin: 6px; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 1024px) {
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      header h1 a {
+        margin: auto; } }
+  @media (min-width: 768px) {
+    header .main-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; } }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px; }
+  .intro img {
+    align-self: center;
+    max-width: 367px; }
+  @media (min-width: 768px) {
+    .intro {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .intro p {
+        order: -1;
+        flex: 1;
+        padding: 10px;
+        align-self: center;
+        text-align: left; }
+      .intro img {
+        flex: 1;
+        padding: 10px; } }
+  @media (min-width: 1024px) {
+    .intro {
+      color: #3a3a3a;
+      font-size: 1.3em;
+      line-height: 1.5;
+      font-family: "Source Sans Pro", sans-serif; }
+      .intro p {
+        margin-right: 3em; } }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  .portfolio .container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; }
+    @media (min-width: 768px) {
+      .portfolio .container {
+        flex: 1 46%; } }
+    @media (min-width: 1024px) {
+      .portfolio .container {
+        flex: 1 27.33333%; } }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .skills {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; } }
+  .skills ul {
+    align-self: center; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center; }
+  .contact table {
+    text-align: left; }
+    .contact table a {
+      margin-left: 10px; }
+
+.main-footer {
+  margin-top: auto;
+  min-height: 1vh;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  .main-footer .bottom-nav {
+    display: none; }
+  @media (min-width: 768px) {
+    .main-footer .bottom-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center; }
+    .main-footer h3 a {
+      display: none; } }
+
+/*# sourceMappingURL=application.css.map */

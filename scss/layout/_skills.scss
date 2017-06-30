@@ -4,7 +4,7 @@
 
 .skills {
     @include flexy($dir: column);
-    @include center(90%);
+    @include center(95%);
 
     @include mq('sm') {
         @include flexy($dir: row, $just: space-between);

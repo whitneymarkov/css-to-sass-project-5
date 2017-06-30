@@ -13,7 +13,7 @@
     }
   }
   a {
-    @include text($font: $font-stack-secondary, $size: 1.25em);
+    @include text($font: $font-stack-secondary, $size: 1.2em);
     text-transform: capitalize;
     padding: .75em;
   }
